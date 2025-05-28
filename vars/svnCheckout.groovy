@@ -1,4 +1,4 @@
-def call(String repoUrl, String credentialsId ) {
+def call(String repoUrl, String credentialsId='Ram' ) {
     checkout([
         $class: 'SubversionSCM',
         additionalCredentials: [],
